@@ -1,0 +1,29 @@
+.datails__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+}
+.movie__image {
+    border-radius: 15px;
+    object-fit: cover;
+}
+.title__details {
+    margin-top: 0;
+    color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+.title__details__sub {
+    color: rebeccapurple;
+}
+.movie__details {
+    font-size: 1.5rem;
+}
